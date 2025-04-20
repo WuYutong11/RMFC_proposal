@@ -269,7 +269,7 @@ More importantly, this study is expected to provide empirical data and an action
     \label{fig:deliverables}
 \end{table}
 
-
+\ Reference
 %                Now build the reference list
 \bibliographystyle{unsrt}   % The reference style
 %                This is plain and unsorted, so in the order
@@ -278,6 +278,11 @@ More importantly, this study is expected to provide empirical data and an action
 {\small
 \bibliography{main}       % bib file(s).
 }
+
+pdflatex main.tex     
+bibtex main          
+pdflatex main.tex   
+pdflatex main.tex    
 
 
 \end{document}
